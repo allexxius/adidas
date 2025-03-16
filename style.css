@@ -35,10 +35,11 @@ body {
 
 .image-container img {
     display: block;
-    width: auto;
+    width: 100px;
     height: auto;
-    padding-left: 10px;
+    padding-left: 20px;
 }
+
 
 .nav-links {
     flex-grow: 1;
@@ -107,7 +108,7 @@ a:hover::before {
 
 .hero-content .basic{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 p.bold {
@@ -116,4 +117,50 @@ p.bold {
 
 .navigation {
     margin-bottom: 100px;
+}
+
+button {
+    color: white;
+    font-size: large;
+    border: none;
+    background-color: #BD3F7E;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 23%;
+    max-width: 300px;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.product-name,
+.product-price {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+}
+
+.new-arrivals h2 {
+    margin-left: 40px;
 }
